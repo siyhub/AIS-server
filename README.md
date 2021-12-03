@@ -3,8 +3,13 @@ I "AIS-server" blir alt av AIS-data hentet fra kystverket.no deretter lagret i b
 
 Merk at for å kjøre dette programmet, så må du ha satt opp en apache kafka server på din pc, der du har opprettet et topic "aismessages".
 
-Hvordan sette opp kafka:
+Nedenfor vises hvordan du kan sette opp Kafka:
 Hentet fra:https://tutorialspedia.com/how-to-setup-kafka-on-windows-install-and-run-kafka-as-windows-service/
+
+
+
+
+
 
 Setup Kafka on Windows: Pre-Requisites for Installing Kafka on Windows OS
 
