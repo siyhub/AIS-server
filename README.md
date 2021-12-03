@@ -1,12 +1,12 @@
 # AIS-server
 I "AIS-server" blir alt av AIS-data hentet fra kystverket.no deretter lagret i både vår database og sendt til Apache Kafka som er satt opp lokalt på PC'en.
 
-Merk at for å kjøre dette programmet, så må du ha satt opp en apache kafka server på din pc, der du har opprettet et topic, "aismessages".
-
+Merk at for å kjøre kystverketkafka.py, så må du ha satt opp en apache kafka server på din pc, der du har opprettet et topic, "aismessages".
 Dictcargotypes.py er kun et oppslagsverk for å konvertere tallkoder for type fartøy til forståelige setninger.
-kystverket.py er hovedprogrammet.
+kystverketkafka.py er hovedprogrammet.
+kystverket.py er hovedprogrammet uten å bruke kafka, altså kun lagre data inn i databasen.
 
-Nedenfor vises hvordan du kan sette opp Kafka:
+Nedenfor vises hvordan du kan sette opp Kafka for å kjøre kystverketkafka.py:
 Hentet fra:https://tutorialspedia.com/how-to-setup-kafka-on-windows-install-and-run-kafka-as-windows-service/
 ------------------------------------------------------------------------------------------------------------------------------
 
