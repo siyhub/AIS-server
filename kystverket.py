@@ -1,14 +1,12 @@
-#Henter ut ais data kontinuerlig fra kystverket
-#sisteversjon tror jeg.
-"""
-sdfa
-"""
+#Henter ut ais data fra kystverket
+#Lagrer det i en sqlite3database
+#Dette er ikke hovedprogrammet, men et alternativ dersom en ikke har kafka innstalert
+
+
 import socket
 import Dictcargotypes as d
-#from pyais.stream import TCPStream
 import ais.stream
 import re
-#initierer sqlite
 import sqlite3
 from datetime import datetime
 conn = sqlite3.connect('aisversion1.db',timeout=10)
