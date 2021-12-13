@@ -1,6 +1,6 @@
 # Henter ut ais data kontinuerlig fra kystverket.no
 # Dataen lagres i SQLITE3-databasen og pushes til kafka.
-# Dette er hovedprogrammet
+# Dette er hovedprogrammet 
 import socket
 import Dictcargotypes as d
 import ais.stream
